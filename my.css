@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  padding: 8px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+}
+
+nav .navbar .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #FFE400;
+}
+
+nav .navbar-right {
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar .navbar-right a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.navbar-right {
+  float: right;
+}
+
+
+
+
+
+section {
+  padding-bottom: 10px;
+}
+
+section .content {
+  width: 80%;
+  height: 200px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  margin-left: 150px;
+
+}
+
+section .content .title {
+  font-size: 2.5em;
+  padding: 40px;
+  text-align: center;
+  color: #333;
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+
+
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  background: url("background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.home home-details title {
+  text-align: left;
+  color: white;
+}
+
+.home .text-one {
+  font-size: 25px;
+  color: #0E2431;
+  margin-top: 100px;
+}
+
+.home .text-two {
+  color: #0E2431;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -10px;
+}
+
+.home .text-three {
+  font-size: 40px;
+  margin: 5px 0;
+  color: black;
+}
+
+.home .text-four {
+  font-size: 23px;
+  margin: 5px 0;
+  color: #0E2431;
+  margin-bottom: 20px;
+}
+
+.home button {
+  border: none;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 4px
+}
+
+.home button:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid;
+  font-weight: bold;
+}
+
+.about .about-details p {
+  text-align: left;
+
+}
+.about .abt p {
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+.technicalskills .content .topic {
+  text-align: center;
+  font-size: 30px;
+}
+
+.technicalskills .content p {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.skills-details .boxes {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-details .box {
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
+}
+
+.skills-details .boxes .topic {
+  font-size: 20px;
+  color: #4070f4;
+}
+
+.skills-details .boxes .per {
+  font-size: 60px;
+  color: #4070f4;
+}
+
+/* My Technical Skills CSS */
+
+.technicalskills .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.technicalskills .boxes .box {
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.technicalskills .boxes .box:hover {
+  background: #4070f4;
+  color: #fff;
+}
+
+.technicalskills .boxes .box .icon {
+  height: 50px;
+  width: 50px;
+  background: #4070f4;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+
+.boxes .box:hover .icon {
+  background-color: #fff;
+  color: #4070f4;
+}
+
+
+.contact {
+  background-color: white;
+
+}
+
+.contact .topic {
+  font-size: 2.5em;
+  padding: 40px;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+
+}
+
+.contact .content .address i {
+  padding-right: 5px;
+}
+
+.contact .content .address {
+  text-align: center;
+
+}
+
+.contact .content .contactservie {
+  text-align: center;
+}
+
+.contact .phone {
+  padding-left: 80px;
+  padding-right: 150px;
+}
+
+.contact .whatsapp {
+  padding-right: 150px;
+}
+
+.contact .mail {
+  padding-right: 150px;
+
+}
+
+.contact .linkedin {
+  padding-right: 150px;
+}
+
+.contact .instagram {
+  padding-right: 150px;
+
+}
+
+.contact button {
+  background: white;
+  border-width: 0;
+  padding-bottom: 30px;
+}
+
+
+footer {
+  background: black;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .text span {
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+
+footer .text span a {
+  font-weight: 500;
+  color: #FFF;
+}
+
+footer .text span a:hover {
+  text-decoration: underline;
+  color: #FFE400;
+}
